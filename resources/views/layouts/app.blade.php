@@ -8,6 +8,7 @@
   <body>
     {{-- inludo l'header --}}
     @include("partials.header")
+
     {{-- includo il footer --}}
     @include("partials.footer")
 
