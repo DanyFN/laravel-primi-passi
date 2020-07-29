@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img{
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  .logo{
+    display: flex;
+    justify-content:flex-start;
+    height: 100px;
+    width: 40%;
+  }
+  .lista{
+    display: flex;
+    width: 50%;
+    ul{
+      list-style-type: none;
+      li{
+        display: inline-block;
+        padding: 0px 15px;
+      }
+    }
+  }
+}
