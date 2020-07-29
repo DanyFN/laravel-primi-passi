@@ -9,8 +9,12 @@
     {{-- inludo l'header --}}
     @include("partials.header")
 
+
     {{-- main --}}
-    @yield('content')    {{-- ===> segnaposto --}}
+
+    <main>
+      @yield('content')    {{-- ===> segnaposto --}}
+    </main>
 
     {{-- includo il footer --}}
     @include("partials.footer")
